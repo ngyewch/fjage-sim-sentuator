@@ -13,7 +13,7 @@ public interface SensorDataSource {
    *
    * @param coords    Coordinates.
    * @param timestamp Timestamp (milliseconds since epoch).
-   * @return
+   * @return Value.
    */
   @Nullable
   Float getValue(@NotNull float[] coords, long timestamp);
